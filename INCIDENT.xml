@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <presentation apphelp="com.ibm.mbs.doc,incident/c_incidents_application.html" beanclass="psdi.webclient.beans.servicedesk.TicketAppBean" id="bssincident" mboname="INCIDENT" orderby="TICKETID" resultstableid="results_showlist" version="7.1.0.0">
 	<page id="mainrec">
 		<include id="pageHeader"/>
@@ -17,7 +16,6 @@
 							<tablecol dataattribute="internalpriority" id="results_showlist_tablebody_5" label="优先级"/>
 							<tablecol dataattribute="status" id="results_showlist_tablebody_6" linkedcontrolid="qbe_grid2_1_1_grid5_3"/>
 							<tablecol dataattribute="owner" id="results_showlist_tablebody_7" linkedcontrolid="qbe_grid2_1_1_grid3_3"/>
-							<tablecol dataattribute="ownergroup" id="results_showlist_tablebody_8" linkedcontrolid="qbe_g1_1_1_grid3_4"/>
 							<tablecol filterable="false" hidden="false" id="results_bookmark" mxevent="BOOKMARK" mxevent_desc="添加到书签" mxevent_icon="btn_addtobookmarks.gif" sortable="false" type="event"/>
 						</tablebody>
 					</table>
